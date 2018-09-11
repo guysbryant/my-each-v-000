@@ -5,6 +5,7 @@ def my_each(collection)  # put argument(s) here
     
     while i < collection.length
        collection[i]
+       i += 1
     end
   end
   collection
